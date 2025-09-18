@@ -1,0 +1,23 @@
+package home_work3;
+
+public class GameSettings {
+    static int maxPlayers;
+    final String gameName;
+    int currentPlayers;
+    public GameSettings(int someMaxPlayers, String someGameName, int someCurrentPlayers){
+        maxPlayers = someMaxPlayers;
+        gameName =someGameName;
+        currentPlayers =someCurrentPlayers;
+    }
+    static void setMaxPlayers(int newMaxPlayers){
+        maxPlayers = newMaxPlayers;
+    }
+    //public void addPlayer(){
+    //    if currentPlayers < maxPlayers:
+    //    maxPlayers = currentPlayers +1;
+    //    else:
+    //   maxPlayers;}
+    public void printGameStatus(){
+       System.out.println("название: " + gameName + ", текущее: " +currentPlayers +" и максимальное количество игроков: " + maxPlayers);
+    }
+}
