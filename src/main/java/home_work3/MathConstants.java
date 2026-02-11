@@ -1,9 +1,9 @@
 package home_work3;
 
 public class MathConstants {
-    final double PI = 3.14159;
-    final double E = 2.71828;
-    double r;
+    private final double PI = 3.14159;
+    private final double E = 2.71828;
+    private double r;
     public MathConstants(double someR){
         r = someR;}
     void  calculateCircleArea(){
