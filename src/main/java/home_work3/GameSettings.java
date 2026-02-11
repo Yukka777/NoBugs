@@ -12,11 +12,11 @@ public class GameSettings {
     static void setMaxPlayers(int newMaxPlayers){
         maxPlayers = newMaxPlayers;
     }
-    //public void addPlayer(){
-    //    if currentPlayers < maxPlayers:
-    //    maxPlayers = currentPlayers +1;
-    //    else:
-    //   maxPlayers;}
+public void addPlayer() {
+    if (currentPlayers < maxPlayers) {
+        currentPlayers++;
+    }
+}
     public void printGameStatus(){
        System.out.println("название: " + gameName + ", текущее: " +currentPlayers +" и максимальное количество игроков: " + maxPlayers);
     }
