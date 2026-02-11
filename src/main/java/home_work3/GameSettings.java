@@ -2,8 +2,8 @@ package home_work3;
 
 public class GameSettings {
     static int maxPlayers;
-    final String gameName;
-    int currentPlayers;
+    private final String gameName;
+    private int currentPlayers;
     public GameSettings(int someMaxPlayers, String someGameName, int someCurrentPlayers){
         maxPlayers = someMaxPlayers;
         gameName =someGameName;
