@@ -1,7 +1,7 @@
 package home_work3;
 
 public class Company {
-    private static String companyName  = "Apple";
+   static String companyName  = "Apple";
 
     private final int employeeID;
     private String employeeName;
