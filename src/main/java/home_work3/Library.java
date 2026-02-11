@@ -2,9 +2,9 @@ package home_work3;
 
 public class Library {
 private String bookTitle;
-protected String author;
-int year;
-public String category;
+private String author;
+private int year;
+private String category;
 public Library(String someBookTitle, String someAuthor, int someYear, String someCategory){
     bookTitle = someBookTitle;
     author = someAuthor;
