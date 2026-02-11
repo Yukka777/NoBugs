@@ -1,10 +1,10 @@
 package home_work3;
 
 public class Company {
-    static String companyName  = "Apple";
+    private static String companyName  = "Apple";
 
-    final int employeeID;
-    String employeeName;
+    private final int employeeID;
+    private String employeeName;
     public Company(int someEmployeeID, String SomeEmployeeName){
         employeeID = someEmployeeID;
         employeeName = SomeEmployeeName;
