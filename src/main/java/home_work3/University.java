@@ -2,8 +2,8 @@ package home_work3;
 
 public class University {
     static String universityName;
-    final int studentID;
-    String studentName;
+    private final int studentID;
+    private String studentName;
     public University(int someStudentID, String someStudentName){
         studentID =someStudentID;
         studentName =someStudentName;}
